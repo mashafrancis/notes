@@ -1,4 +1,4 @@
-site_name: Masha's Notes
+site_name: Bytes
 site_description: Short bytes of information, code snippets or articles that I want to keep handy.
 copyright: Made by Francis Masha.
 repo_name: mashafrancis/notes
@@ -15,14 +15,14 @@ theme:
       primary: blue
       accent: amber
       toggle:
-        icon: material/weather-sunny
-        name: Switch to light mode
+        icon: material/brightness-7
+        name: Switch to dark mode
     - scheme: slate
       primary: blue
       accent: amber
       toggle:
-        icon: material/weather-night
-        name: Switch to dark mode
+        icon: material/brightness-4
+        name: Switch to light mode
   icon:
     logo: material/xml
   favicon: img/favicon.png
@@ -39,8 +39,8 @@ theme:
     - search.highlight
     - search.suggest
   font:
-    text: Noto Sans
-    code: IMB Plex Mono
+    text: Circular Std
+    code: SF Mono
 
 plugins:
   - search:

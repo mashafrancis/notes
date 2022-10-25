@@ -1,9 +1,15 @@
 @font-face {
   font-family: "Circular Std";
   src: "docs/fonts/Spotify-Circular-Book";
+    font-weight: normal;
+    font-style: normal;
 }
 
 @font-face {
-  font-family: "SF Mono";
-  src: "docs/fonts/SFMono.otf";
+    font-family: 'SF Mono';
+    src: url('docs/fonts/sf-mono-regular.woff2') format('woff2'),
+         url('docs/fonts/sf-mono-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
 }

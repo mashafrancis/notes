@@ -28,7 +28,8 @@ Create a file called `elasticsearch.repo` in the `/etc/yum.repos.d/` directory w
 
 and paste the following then save the file:
 
-    [elasticsearch] name=Elasticsearch repository for  8.x packages
+    [elasticsearch] 
+    name=Elasticsearch repository for  8.x packages
     baseurl=https://artifacts.elastic.co/packages/8.x/yum
     gpgcheck=1 
     gpgkey=https://artifacts.elastic.co/GPG-KEY-elasticsearch

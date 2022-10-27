@@ -42,3 +42,7 @@ Install Elasticsearch
     systemctl daemon-reload
     systemctl enable elasticsearch.service
     systemctl start elasticsearch.service
+    
+    
+Reference link
+[Elasticsearch setup](https://www.elastic.co/guide/en/elasticsearch/reference/current/rpm.html)

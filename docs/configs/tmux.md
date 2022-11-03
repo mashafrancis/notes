@@ -1,4 +1,4 @@
-### Old tmux config
+### Old config
 
 ```
 # --------#
@@ -132,11 +132,12 @@ set -g prefix C-a
 unbind C-b
 bind-key C-a send-prefix
 
-unbind %
-bind | split-window -h 
+# Split panes and remember current path
+bind '\' split-window -h -c '#{pane_current_path}'
+bind - split-window -v -c '#{pane_current_path}'
 
-unbind '"'
-bind - split-window -v
+# Remember current path when creating new windows
+bind c new-window -c '#{pane_current_path}'
 
 unbind r
 bind r source-file ~/.tmux.conf
@@ -174,3 +175,6 @@ set -g @continuum-restore 'on'
 # Initialize TMUX plugin manager (keep this line at the very bottom of tmux.conf)
 run '~/.tmux/plugins/tpm/tpm'
 ```
+
+### Running the config
+To install the tpm plugins, run run `CTRL + a`, then `SHIFT + i`

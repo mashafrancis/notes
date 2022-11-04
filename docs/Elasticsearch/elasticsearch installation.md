@@ -8,15 +8,15 @@ Switch to superuser
 
 Update applications installed on a system
 
-    yum update
+    dnf update
 
 Install vim editor - the colored editor may indicate errors in the config files
 
-    yum -y install vim
+    dnf -y install vim
 
 Install java. You can specify the version and release you desire.
 
-    yum -y install java
+    dnf -y install java
 
 Import the elasticsearch GnuPG key
 
@@ -39,7 +39,7 @@ and paste the following then save the file:
 
 Install Elasticsearch
 
-    yum install --enablerepo=elasticsearch elasticsearch
+    dnf install --enablerepo=elasticsearch elasticsearch
     systemctl daemon-reload
     systemctl enable elasticsearch.service
     systemctl start elasticsearch.service

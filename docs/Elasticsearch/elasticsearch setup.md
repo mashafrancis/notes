@@ -1,6 +1,6 @@
 ## Installing Elasticsearch
 
-The installation on this article is based on RHEL version 8, you can use dnf instead of yum.
+The installation on this article is based on RHEL version 8, you can use yum instead of dnf.
 
 Switch to superuser
 

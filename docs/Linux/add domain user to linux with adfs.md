@@ -20,4 +20,6 @@ vim /etc/sudoers.d/ad_server_admins
 ```
 
 Add the following line
+```
 newusername@domain.net      ALL=(root)      ALL
+```
